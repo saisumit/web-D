@@ -1,0 +1,30 @@
+.jumbotron{
+	background-image:url(http://hd.wallpaperswide.com/thumbs/black_background_wood-t2.jpg);
+}
+
+body{
+  
+  background-image:url("bg.jpg");
+  background-size:1300px 500px;
+  background-position: bottom;
+
+
+
+}
+
+a:hover{
+
+	color:white;
+	text-decoration:none;
+	background-color:#999;
+}
+
+#head{
+
+	padding:7px;
+	color:black;
+	text-align:center;
+	text-decoration:underline;
+
+
+}
