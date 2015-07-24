@@ -1,0 +1,44 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\New folder (2)\learn.css" rel="stylesheet">
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>GETTING STARTED WITH BOOTSTRAP</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="container">
+      <div class="row">
+        <div class="well">
+         <a href="#" class="btn">BUTTON</a>
+         <a href="#" class="btn btn-primary">BUTTON</a>
+         <a href="#" class="btn btn-success">BUTTON</a>
+         <a href="#" class="btn btn-info">BUTTON</a>
+         <a href="#" class="btn btn-warning">BUTTON</a>
+         <a href="#" class="btn btn-danger">BUTTON</a>
+
+         <a href="#" class="btn btn-link btn-lg">BUTTON</a>
+         <a href="#" class="btn btn-warning btn-lg">BUTTON</a>
+         <a href="#" class="btn btn-warning">BUTTON</a>
+         <a href="#" class="btn btn-warning btn-sm">BUTTON</a>
+         <a href="#" class="btn btn-warning btn-xs">BUTTON</a>
+         <div class="well><a href="#" class="btn btn-block">BUTTON</a></div>
+         
+         <button type="button" class="btn btn-info">sumit</button>
+
+         </a>
+        </div> 
+      </div>
+    </div>
+  
+
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\jquery.js"></script>
+  </body>
+
+  </html>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+
