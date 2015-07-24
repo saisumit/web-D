@@ -1,0 +1,56 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\New folder (2)\learn.css" rel="stylesheet">
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>GETTING STARTED WITH BOOTSTRAP</title>
+  </head>
+  <body>
+<div class="jumbotron">
+  
+    <div class="container">
+       <div id="head"><div class="well">MY DAILY LINKS</div></div>
+      <div class="row">
+       
+        <div class="col-xs-12 col-md-3"><div class="well">CODECHEF
+          <img src="https://pbs.twimg.com/profile_images/470882849885667329/X48adYnt.jpeg" hspace="100" height="50px" width="50px" align="middle" style="margin:10px 0px" /><div class="row">
+            <div class="col-md-12"><div class="well"><a href="#">SUMO</a></div></div>
+            <div class="col-md-12"><div class="well"><a href="#">SHUBHI</a></div></div>
+            <div class="col-md-12"><div class="well"><a href="#">TARUN</a></div></div>
+        </div></div></div>
+        <div class="col-xs-12 col-md-3"><div class="well"><a href="https://github.com/saisumit">GITHUB <img src="http://www.digikom.hu/images/SurvCalc_hu/github.png" hspace="50" height="50px" width="50px" /></a></div></div>
+        <div class="col-xs-6 col-md-3"><div class="well"><a href="https://www.facebook.com/">FACEBOOK <img src="http://www.suescheffblog.com/wp-content/uploads/2015/03/facebook-logo.jpg" hspace="100" height="50px" width="50px"  align="middle" style="margin:10px 5px"/ ></a></div></div>
+        <div class="col-xs-6 col-md-3"><div class="well"><a href="https://mail.google.com/mail/u/0/">GMAIL <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTenWVe49iu795397XsiBaowgQTULPWePNWFuPGlBLhL7X6rglM-A" hspace="50" height="50px" width="50px"/ ></a></div></div>
+
+        <!..clearfix hidden-md hidden-lg..>
+
+       </div>
+      <div class="row">
+        <div class="col-md-4 "><div class="well">ABOUT ME</div></div> 
+        <div class="col-md-4 col-md-offset-4"><div class="well">SURPRISE</div></div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+</div>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\jquery.js"></script>
+  </body>
+
+  </html>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+
