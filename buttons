@@ -23,11 +23,14 @@
          <a href="#" class="btn btn-warning">BUTTON</a>
          <a href="#" class="btn btn-warning btn-sm">BUTTON</a>
          <a href="#" class="btn btn-warning btn-xs">BUTTON</a>
-         <div class="well><a href="#" class="btn btn-block">BUTTON</a></div>
+         <div class="well"><a href="#" class="btn btn-block">BUTTON</a></div>
          
          <button type="button" class="btn btn-info">sumit</button>
 
-         </a>
+          <span class="glyphicon glyphicon-search"></span>
+          <span class="glyphicon glyphicon glyphicon-search"></span>
+
+          <a href="#" class="btn btn-danger btn-lg"> <span class="glyphicon glyphicon-search"></span> </a>
         </div> 
       </div>
     </div>
