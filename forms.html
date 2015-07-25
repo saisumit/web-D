@@ -1,0 +1,95 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\New folder (2)\learn.css" rel="stylesheet">
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>GETTING STARTED WITH BOOTSTRAP</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action=""><!-- this is to be used for starting a form-->
+        <div class="form-group">  <!--THIS ALLOWS SPACING-->
+          <label for="element-1">THIS IS THE TEXT</label> <!--this will appear above the  form box as label -->
+            <input type="text" id="element-1" class="form-control"><!--this specifies type of input id to which it will be applied-->
+
+          </div>
+         <div class="form-group has-warning has-feedback"><!-- has error specifies color of the box-->
+          <label for="element-2" class="control-label">THIS IS THE TEXT</label> <!--control label gives color to label same as the box-->
+            <input type="text" id="element-2" class="form-control">
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span> 
+          <p class="help-block">ENTER THE PASSWORD WITH MIN 4 DIGITS</p>
+        </div>
+
+        <div class="form-group has-error has-feedback"> <!--tells that some feedback in the form of anything("here-a glphyicon") is waiting -->
+
+          <label for="element-5" class="control-label">THIS IS THE TEXT</label> 
+            <input type="text" id="element-5" class="form-control">
+            <span class="glyphicon glyphicon-remove form-control-feedback"></span> <!--tells that some glyphicon ha to be placed int the box in the form of  a feedback-->
+            <p class="help-block">ENTER THE PASSWORD WITH MIN 4 DIGITS</p>
+        </div>
+          
+          <div class="form-group has-success"> 
+          <label for="element-7">THIS IS THE TEXT</label> 
+            <input type="text" id="element-7" class="form-control input-lg">
+          <p class="help-block">ENTER THE PASSWORD WITH MIN 4 DIGITS</p>
+        </div>
+        
+      </form>
+
+
+      <br/>
+      <form action="" class="form-inline"><!--alll boxes in same line-->
+        <div class="form-group">
+          <!--THIS ALLOWS SPACIN-->
+          <label for="element-3" class="sr-only">THIS IS THE TEXT</label> <!--u can hide the label using sr-only class-->
+            <input type="text" id="element-3" class="form-control" placeholder="enter email"><!--paceholder insert background text inside form boxes-->
+        </div>
+        <div class="form-group">
+          <label for="element-4" class="sr-only">THIS IS THE TEXT</label> 
+            <input type="password" id="element-4" class="form-control input-lg" placeholder="enter password">
+            <!-- input-lg / input-sm/  imput-md determines the size of the input box -->
+        </div>
+     </form>
+
+      <hr>
+      <div class="checkbox">
+        <label for=""><input type="checkbox">REMEMBER ME</label>
+        <!--small box for such as remeber me during sign in -->
+
+      </div>
+      <button class="btn btn-primary">SUBMIT</button> 
+      <br/>
+      <br/>
+      <hr>
+    <!--CREATING FORMS USING ROWS AND COLOUMNS-->
+    <form action="" >
+      <div class="row">
+        <div class="col-lg-2">
+          <input type="text" class="form-control" placeholder="this is four blocks wide">
+        </div>
+        <div class="col-lg-4">
+          <input type="text" class="form-control" placeholder="this is four blocks wide">
+        </div>
+        <div class="col-lg-6">
+          <input type="text" class="form-control" placeholder="this is four blocks wide">
+        </div>
+      </div>
+    </form>
+
+
+
+
+
+    </div>
+  
+
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\jquery.js"></script>
+  </body>
+
+  </html>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+
