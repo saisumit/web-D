@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\New folder (2)\learn.css" rel="stylesheet">
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link href="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>GETTING STARTED WITH BOOTSTRAP</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mymodal">Open Modal</button>
+      <!--data-toggle means that it will open a modal -->
+        <!-- data-target means that it will open the target with same id as my modal-->
+    <div id="mymodal" class="modal fade" role="dialog">
+        <!-- this will open  a fade modal basically giving it a perticular style  -->
+          <!-- role:dialog means that it is to be used whenever a screen-reader is at use-->
+      <div class="modal-dialog">
+          <!-- this is a starting class that allocates width of the box -->
+
+        <div class="modal-content">
+          <!--this is the opening tag fr the modal content basically allocates space for the header -->
+          <div class="modal-header">
+            <!--this is the opening tag fr the modal headign basically allocates space for the heading -->
+            <button type="button" data-dismiss="modal"class="close">&times</button>
+              <!-- this is button type whose purpose is to dismiss the modal and class is a close for a giving a perticular style -->
+            <h4 class="modal-title">Modal-Header </h4>
+            <!--this is the opening tag fr the modal title basically styles the title -->
+
+
+          </div>
+          <div class="modal-body">
+            <p>Some Text in the Modal</p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal"class="btn btn-default">Close</button>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+   </div>
+   </div>
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
+  <script src="C:\Users\hp1\Desktop\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\jquery.js"></script>
+  </body>
+
+  </html>
